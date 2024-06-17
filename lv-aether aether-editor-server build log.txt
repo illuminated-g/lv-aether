@@ -1,0 +1,400 @@
+2024-06-16 00:11:38
+
+[AB_L New Build](0.101)(258752):
+Project:lv-aether.lvproj
+Target:My Computer
+BuildSpec:aether-editor-server
+OS:Windows 95/NT
+LabVIEW Version: 20.0.1
+
+[AB_L ProjectFileData](0.101)(258752):
+NOTE:This data will be stale if the build spec has been modified and the project file has not been saved!
+
+<Item Name="aether-editor-server" Type="EXE">
+<Property Name="App_copyErrors" Type="Bool">true</Property>
+<Property Name="App_INI_aliasGUID" Type="Str">{1E4044AD-5A09-4E73-A2EA-C100EC1A689E}</Property>
+<Property Name="App_INI_GUID" Type="Str">{DA2CE63E-272D-41C0-B87E-15FA07BA32B9}</Property>
+<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+<Property Name="App_serverType" Type="Int">0</Property>
+<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+<Property Name="Bld_buildCacheID" Type="Str">{6E6031C7-B35B-4AF4-BE27-FCD733F4C5A7}</Property>
+<Property Name="Bld_buildSpecName" Type="Str">aether-editor-server</Property>
+<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/aether-editor-server</Property>
+<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+<Property Name="Bld_previewCacheID" Type="Str">{D396AB95-76E6-4C81-8E9A-B7786BFC6853}</Property>
+<Property Name="Bld_version.major" Type="Int">1</Property>
+<Property Name="Destination[0].destName" Type="Str">aether-editor-server.exe</Property>
+<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/aether-editor-server/aether-editor-server.exe</Property>
+<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+<Property Name="Destination[0].type" Type="Str">App</Property>
+<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/aether-editor-server/data</Property>
+<Property Name="DestinationCount" Type="Int">2</Property>
+<Property Name="Exe_iconItemID" Type="Ref">/My Computer/images/aether.ico</Property>
+<Property Name="Source[0].itemID" Type="Str">{AFCBCB6E-0854-4CFC-AC00-EEBAB4A1F18B}</Property>
+<Property Name="Source[0].type" Type="Str">Container</Property>
+<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+<Property Name="Source[1].itemID" Type="Ref">/My Computer/Aether Editor Server.lvlib/_Main.vi</Property>
+<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+<Property Name="Source[1].type" Type="Str">VI</Property>
+<Property Name="SourceCount" Type="Int">2</Property>
+<Property Name="TgtF_companyName" Type="Str">Blue Origin</Property>
+<Property Name="TgtF_fileDescription" Type="Str">aether-editor-server</Property>
+<Property Name="TgtF_internalName" Type="Str">aether-editor-server</Property>
+<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Blue Origin</Property>
+<Property Name="TgtF_productName" Type="Str">aether-editor-server</Property>
+<Property Name="TgtF_targetfileGUID" Type="Str">{14B6D0C8-21C5-4551-B927-F1390385E5CE}</Property>
+<Property Name="TgtF_targetfileName" Type="Str">aether-editor-server.exe</Property>
+<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+</Item>
+
+[AB_L Before Build Class Data](0.127)(258816):
+buildSpecName:aether-editor-server
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[]
+buildContext:4062247396464132096
+buildObject:631485432
+preview:FALSE
+targetfileName:aether-editor-server.exe
+enableDebugging:FALSE
+INI_path:
+INI_itemID:
+aliasPath:
+aliasItemID:
+waitDebugging:FALSE
+copyErrors:TRUE
+useFFRTE:FALSE
+includeHWConfig:FALSE
+showHWConfig:FALSE
+cmdLineArgs:FALSE
+actXServerName:
+iconPath:C:\dev\lv 2020\lv-aether\Aether Editor Server\aether.ico
+iconItemID:{88A32C2F-C81A-42D7-A440-863455A81BE7}
+
+
+Source[0] (Container)
+path:
+itemID:{AFCBCB6E-0854-4CFC-AC00-EEBAB4A1F18B}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (VI)
+path:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+itemID:{642A56E6-7614-4C05-8CE2-6A64B87FFDD4}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:aether-editor-server.exe
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Applied Container Class Data](0.127)(258816):
+buildSpecName:aether-editor-server
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[]
+buildContext:4062247396464132096
+buildObject:631485432
+preview:FALSE
+targetfileName:aether-editor-server.exe
+enableDebugging:FALSE
+INI_path:
+INI_itemID:
+aliasPath:
+aliasItemID:
+waitDebugging:FALSE
+copyErrors:TRUE
+useFFRTE:FALSE
+includeHWConfig:FALSE
+showHWConfig:FALSE
+cmdLineArgs:FALSE
+actXServerName:
+iconPath:C:\dev\lv 2020\lv-aether\Aether Editor Server\aether.ico
+iconItemID:{88A32C2F-C81A-42D7-A440-863455A81BE7}
+
+
+Source[0] (Container)
+path:
+itemID:{AFCBCB6E-0854-4CFC-AC00-EEBAB4A1F18B}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (VI)
+path:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+itemID:{642A56E6-7614-4C05-8CE2-6A64B87FFDD4}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[]
+newName:_Main.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:aether-editor-server.exe
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Opened TopLevel](0.143)(259008):
+
+[AB_L Linker Info](0.225)(259392):
+LinksToInclude:Exclusions -
+Edit time Dep: 1
+Typedefs: 0
+Poly VIs: 1
+Unsed lib items:1
+TopLevelPaths:
+C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+
+
+[AB_L Post Linker](0.225)(259392):
+
+[AB_L Linker Items](0.225)(259392):
+
+LinkerItem[0] (existing source)
+path:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+delimted name:Aether Editor Server.lvlib:_Main.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[1]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+itemID:{642A56E6-7614-4C05-8CE2-6A64B87FFDD4}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[]
+newName:_Main.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Aether Editor Server.lvlib:_Main.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[1] (new source)
+path:C:\dev\lv 2020\lv-aether\Aether Editor Server\Aether Editor Server.lvlib
+delimted name:Aether Editor Server.lvlib
+type:Library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\dev\lv 2020\lv-aether\Aether Editor Server\Aether Editor Server.lvlib
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Aether Editor Server.lvlib
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Aether Editor Server.lvlib
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+[AB_L Preview_PresrvHier](0.226)(259392):
+
+[AB_L Build Preview](0.226)(259456):
+Files:
+aether-editor-server.exe\_Main.vi
+aether-editor-server.exe\Aether Editor Server.lvlib
+
+Destination Files:
+aether-editor-server.exe
+
+Max path length: (104), C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe\Aether Editor Server.lvlib
+
+[AB_L Create Destinations](0.235)(259520):
+
+
+Destination[0]
+destName:aether-editor-server.exe
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[2]
+destName:
+path:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+[AB_L Copy Files](2.664)(348288):
+
+SourceItem[2]
+sourcePath:C:\dev\lv 2020\lv-aether\Aether Editor Server\Aether Editor Server.lvlib
+newPath:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe\Aether Editor Server.lvlib
+newDelimitedName:Aether Editor Server.lvlib
+oldDelimitedName:Aether Editor Server.lvlib
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:247
+
+SourceItem[1]
+sourcePath:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+newPath:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe\_Main.vi
+newDelimitedName:Aether Editor Server.lvlib:_Main.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:TRUE
+IsRTM?:FALSE
+processTime:1
+
+[AB_L Save&Close Files](2.913)(350464):
+
+[AB_L Post Prepare Files](2.913)(350464):
+
+SourceItem[0]
+sourcePath:C:\dev\lv 2020\lv-aether\Aether Editor Server\Aether Editor Server.lvlib
+destPath:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe\Aether Editor Server.lvlib
+saveLevel:0x0
+saveTime:13
+
+SourceItem[1]
+sourcePath:C:\dev\lv 2020\lv-aether\Aether Editor Server\_Main.vi
+destPath:C:\dev\lv 2020\builds\lv-aether\aether-editor-server\aether-editor-server.exe\_Main.vi
+saveLevel:0x42001
+saveTime:1
+
+[AB_L Post Save](3.323)(282944):
+
+[AB_L Set Top Level](3.323)(282944):
+
+[AB_L Close Refs](3.374)(282496):
+
+[AB_L CloseBuild](3.719)(282368):
+
+[AB_L END](4.735)(281664):
+2024-06-16 00:11:43
